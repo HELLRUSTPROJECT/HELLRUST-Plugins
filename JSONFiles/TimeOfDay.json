@@ -1,0 +1,22 @@
+{
+  "DatePreset": {
+    "presetDay": 1,
+    "presetMonth": 1,
+    "presetYear": 1500,
+    "setPresetDate": true
+  },
+  "Settings": {
+    "authLevelCmds": 1,
+    "authLevelFreeze": 2,
+    "autoSkipDay": false,
+    "autoSkipNight": false,
+    "dayLength": 420,
+    "freezeDate": false,
+    "logAutoSkipConsole": true,
+    "nightLength": 10
+  },
+  "TimeFreeze": {
+    "freezeTimeOnload": false,
+    "timeToFreeze": 8.0
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "API token": "",
+  "Time between API checks in seconds": 10.0,
+  "Log command executions": true
+}

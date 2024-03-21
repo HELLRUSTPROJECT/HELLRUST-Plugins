@@ -1,0 +1,11 @@
+{
+  "Interval": 3600,
+  "CleanupBuildings": true,
+  "CleanupDeployables": true,
+  "RemoveOutsidePrivilege": true,
+  "OutsideHealthFractionTheshold": 0.2,
+  "RemoveInsidePrivilege": false,
+  "InsideHealthFractionTheshold": 0.0,
+  "Whitelist": [],
+  "CheckOwnerIdPrivilegeAuthorized": true
+}

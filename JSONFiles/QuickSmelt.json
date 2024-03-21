@@ -1,0 +1,44 @@
+{
+  "Use Permission":true,
+  "Speed Multipliers": {
+    "global": 55.0,
+    "furnace.shortname": 400.0
+  },
+  "Fuel Usage Speed Multipliers": {
+    "global": 400.0,
+    "furnace.shortname": 400.0
+  },
+  "Fuel Usage Multipliers": {
+    "global": 55,
+    "furnace.shortname": 55
+  },
+  "Output Multipliers": {
+    "global": {
+      "global": 400.0
+    },
+    "furnace.shortname": {
+      "item.shortname": 400.0
+    }
+  },
+  "Whitelist": {
+    "global": [
+      "item.shortname"
+    ],
+    "furnace.shortname": [
+      "item.shortname"
+    ]
+  },
+  "Blacklist": {
+    "global": [
+      "item.shortname"
+    ],
+    "furnace.shortname": [
+      "item.shortname"
+    ]
+  },
+  "Smelting Frequencies (Smelt items every N smelting ticks)": {
+    "global": 1,
+    "furnace.shortname": 1
+  },
+  "Debug": false
+}

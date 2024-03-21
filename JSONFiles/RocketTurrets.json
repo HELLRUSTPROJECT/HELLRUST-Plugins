@@ -1,0 +1,136 @@
+{
+  "Settings": {
+    "Return % of build costs when picked up": 50.0,
+    "Return % of build costs when rocket component is removed": 50.0,
+    "Turret limit per building (-1 is disabled)": -1
+  },
+  "Rocket Turret": {
+    "Use heat-seeking rockets": false,
+    "Use proximity detonation": true,
+    "Rocket launcher skin ID": 0,
+    "Use emphasised rocket trail": false,
+    "Damage multiplier": 1.0,
+    "Explosion radius": 4.0,
+    "Amount of time to lock on to a target (seconds)": 1.0,
+    "Minimum distance to acquire a target": 4.0,
+    "Maximum distance to acquire a target": 40.0,
+    "Can target NPCs": false,
+    "Maximum turrets per player": 5000000,
+    "Requires ammo to fire": true,
+    "Fire rate (seconds)": 1.3,
+    "Rocket speed (m/s)": 55.0,
+    "Cost to upgrade": [
+      {
+        "Shortname": "rocket.launcher",
+        "Amount": 1
+      },
+      {
+        "Shortname": "metal.refined",
+        "Amount": 10
+      }
+    ],
+    "Allowed rocket types (ammo.rocket.basic, ammo.rocket.hv, ammo.rocket.fire)": [
+      "ammo.rocket.basic",
+      "ammo.rocket.hv",
+      "ammo.rocket.fire"
+    ]
+  },
+  "Javelin Turret": {
+    "Use heat-seeking rockets": true,
+    "Use proximity detonation": true,
+    "Rocket launcher skin ID": 0,
+    "Use emphasised rocket trail": false,
+    "Damage multiplier": 1.0,
+    "Explosion radius": 4.0,
+    "Amount of time to lock on to a target (seconds)": 1.0,
+    "Minimum distance to acquire a target": 10.0,
+    "Maximum distance to acquire a target": 80.0,
+    "Can target NPCs": false,
+    "Maximum turrets per player": 5000000,
+    "Requires ammo to fire": true,
+    "Fire rate (seconds)": 4.0,
+    "Rocket speed (m/s)": 30.0,
+    "Cost to upgrade": [
+      {
+        "Shortname": "rocket.launcher",
+        "Amount": 1
+      },
+      {
+        "Shortname": "targeting.computer",
+        "Amount": 1
+      },
+      {
+        "Shortname": "metal.refined",
+        "Amount": 10
+      }
+    ],
+    "Allowed rocket types (ammo.rocket.basic, ammo.rocket.hv, ammo.rocket.fire)": [
+      "ammo.rocket.basic",
+      "ammo.rocket.hv",
+      "ammo.rocket.fire"
+    ]
+  },
+  "AA Turret": {
+    "Can target minicopters and scrap transport helicopters": true,
+    "Can target patrol helicopter": true,
+    "Can target CH47": true,
+    "Can target Hot Air Balloons": true,
+    "Rocket launcher skin ID": 0,
+    "Use emphasised rocket trail": false,
+    "Damage multiplier": 2.5,
+    "Explosion radius": 4.0,
+    "Amount of time to lock on to a target (seconds)": 1.0,
+    "Minimum distance to acquire a target": 4.0,
+    "Maximum distance to acquire a target": 80.0,
+    "Can target NPCs": false,
+    "Maximum turrets per player": 5000000,
+    "Requires ammo to fire": true,
+    "Fire rate (seconds)": 3.0,
+    "Rocket speed (m/s)": 30.0,
+    "Cost to upgrade": [
+      {
+        "Shortname": "cctv.camera",
+        "Amount": 2
+      },
+      {
+        "Shortname": "rocket.launcher",
+        "Amount": 1
+      },
+      {
+        "Shortname": "targeting.computer",
+        "Amount": 1
+      },
+      {
+        "Shortname": "metal.refined",
+        "Amount": 10
+      }
+    ],
+    "Allowed rocket types (ammo.rocket.basic, ammo.rocket.hv, ammo.rocket.fire)": [
+      "ammo.rocket.basic",
+      "ammo.rocket.hv",
+      "ammo.rocket.fire"
+    ]
+  },
+  "VIP Turret Limits": {
+    "rocketturrets.vip1": {
+      "Basic": 3,
+      "Javelin": 3,
+      "AA": 3
+    },
+    "rocketturrets.vip2": {
+      "Basic": 5,
+      "Javelin": 3,
+      "AA": 4
+    },
+    "rocketturrets.vip3": {
+      "Basic": 5,
+      "Javelin": 5,
+      "AA": 5
+    }
+  },
+  "Version": {
+    "Major": 2,
+    "Minor": 0,
+    "Patch": 26
+  }
+}

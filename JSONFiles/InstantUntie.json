@@ -1,0 +1,9 @@
+{
+  "Untie Duration (Seconds)": 0.0,
+  "How often to check if player is underwater (Seconds)": 5.0,
+  "How often to check if a player is holding the use button (Seconds)": 1.0,
+  "Show Untie Message": true,
+  "Show canceled message": true,
+  "Buoyancy Scale": 1.0,
+  "Set box owner as untie player": false
+}

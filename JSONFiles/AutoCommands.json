@@ -1,0 +1,34 @@
+{
+  "Run commands on player connect": true,
+  "Commands on connect": [
+    "o.grant user $player.id instantcraft.use",
+    "o.grant user $player.id bgrade.all",
+    "o.grant user $player.id imperium.factions",
+    "o.grant user $player.id biplane.bomber.use",
+    "o.grant user $player.id biplane.stormtrooper.use",
+    "o.grant user $player.id spawnheli.minicopter.spawn",
+    "o.grant user $player.id spawnheli.minicopter.nocooldown",
+    "o.grant user $player.id spawnheli.minicopter.despawn",
+    "o.grant user $player.id spawnheli.minicopter.unlimitedfuel",
+    "o.grant user $player.id spawnheli.minicopter.fetch",
+    "o.grant user $player.id blueprintmanager.all",
+    "o.grant user $player.id quicksmelt.use",
+    "o.grant user $player.id signartist.url",
+    "o.grant user $player.id signartist.text"
+  ],
+  "Run commands on player disconnect": false,
+  "Commands on disconnect": [
+    "examplecmd",
+    "example.cmd \"text example\""
+  ],
+  "Run commands on server startup": false,
+  "Commands on server startup": [
+    "examplecmd $server.name",
+    "example.cmd"
+  ],
+  "Run commands on server wipe": false,
+  "Commands on server wipe": [
+    "examplecmd arg",
+    "example.cmd \"text example\""
+  ]
+}

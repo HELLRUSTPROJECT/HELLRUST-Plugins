@@ -1,0 +1,157 @@
+{
+  "badlands": {
+    "enabled": true
+  },
+  "claims": {
+    "costs": [
+      50,
+      100,
+      200,
+      300,
+      400,
+      500
+    ],
+    "enabled": true,
+    "maxAreaNameLength": 20,
+    "maxClaims": null,
+    "minAreaNameLength": 3,
+    "minFactionMembers": 1,
+    "requireContiguousClaims": true
+  },
+  "decay": {
+    "claimedLandDecayReduction": 0.5,
+    "enabled": false
+  },
+  "factions": {
+    "allowFactionBadlands": true,
+    "factionBadlandsCommandCooldownSeconds": 600,
+    "maxFactionNameLength": 1,
+    "maxMembers": null,
+    "memberOwnLandEcoRaidingDamageScale": 1.0,
+    "memberOwnLandExplosiveRaidingDamageScale": 1.0,
+    "minFactionNameLength": 5000,
+    "overrideInGameTeamSystem": true,
+    "useClansPlugin": false
+  },
+  "hud": {
+    "leftPanelXOffset": 0.0,
+    "leftPanelYOffset": 0.0,
+    "rightPanelXOffset": 0.0,
+    "rightPanelYOffset": 0.0,
+    "showEventsHud": true
+  },
+  "map": {
+    "commandCooldownSeconds": 10,
+    "imageSize": 1440,
+    "imageUrl": "",
+    "mapGridYOffset": 0,
+    "maxPinNameLength": 20,
+    "minPinNameLength": 2,
+    "pinCost": 100,
+    "pinsEnabled": true,
+    "serverLogoUrl": ""
+  },
+  "pvp": {
+    "allowedInBadlands": true,
+    "allowedInClaimedLand": true,
+    "allowedInDeepWater": true,
+    "allowedInEventZones": true,
+    "allowedInMonumentZones": true,
+    "allowedInRaidZones": true,
+    "allowedInWilderness": true,
+    "allowedUnderground": true,
+    "commandCooldownSeconds": 25,
+    "enablePvpCommand": false,
+    "restrictPvp": false
+  },
+  "raiding": {
+    "allowedInBadlands": true,
+    "allowedInClaimedLand": true,
+    "allowedInWilderness": true,
+    "restrictRaiding": false
+  },
+  "recruiting": {
+    "enabled [THIS IS NOT AVAILABLE YET]": false
+  },
+  "taxes": {
+    "badlandsGatherBonus": 0.1,
+    "claimedLandGatherBonus": 0.1,
+    "defaultTaxRate": 0.1,
+    "enabled": true,
+    "maxTaxRate": 0.2
+  },
+  "upgrading": {
+    "costs": [
+      0,
+      100,
+      200,
+      300,
+      400,
+      500
+    ],
+    "enabled [THIS IS NOT AVAILABLE YET]": false,
+    "maxDecayExtraReduction": 1.0,
+    "maxProduceBonus": 0.5,
+    "maxRaidDefenseBonus": 0.2,
+    "maxRecruitBotBuffs": 0.2,
+    "maxTaxChestBonus": 1.0,
+    "maxUpgradeLevel": 10
+  },
+  "upkeep": {
+    "checkIntervalMinutes": 15,
+    "collectionPeriodHours": 24,
+    "costs": [
+      10,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "enabled": false,
+    "gracePeriodHours": 12
+  },
+  "war": {
+    "adminApprovalRequired": false,
+    "declarationCost": 0,
+    "defenderApprovalRequired": false,
+    "defensiveBonuses": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "enabled": true,
+    "enableShopfrontPeace": true,
+    "minCassusBelliLength": 50,
+    "noobFactionProtectionInSeconds": 0,
+    "onlineDefendersRequired": 0,
+    "priorAggressionRequired": false,
+    "spamPreventionSeconds": 0
+  },
+  "zones": {
+    "domeDarkness": 1,
+    "enabled": true,
+    "eventZoneLifespanSeconds": 600.0,
+    "eventZoneRadius": 150.0,
+    "monumentZones": {
+      "airfield": 200.0,
+      "junkyard": 150.0,
+      "launch_site": 300.0,
+      "military_base": 150.0,
+      "military_tunnel": 150.0,
+      "oilrig_1": 200.0,
+      "oilrig_2": 200.0,
+      "powerplant": 175.0,
+      "research_base": 150.0,
+      "satellite_dish": 130.0,
+      "sphere_tank": 120.0,
+      "trainyard": 180.0,
+      "water_treatment_plant": 180.0
+    }
+  }
+}

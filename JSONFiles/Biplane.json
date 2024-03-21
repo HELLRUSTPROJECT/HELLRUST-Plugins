@@ -1,0 +1,219 @@
+{
+  "Plugin version": "1.0.8",
+  "Prefix in chat": "[Biplane]",
+  "Permission to give items": "biplane.items",
+  "Deployed SamSite will be attacked by biplanes [true/false]": true,
+  "SamSite on the monument will attack biplanes [true/false]": true,
+  "Increase the speed of missiles and the attack radius of SamSite by biplane? [true/false]": false,
+  "Allow you to pick up a biplane with a hammer [true/false]": true,
+  "Invert the X-axis? [true/false]": false,
+  "Invert the Y-axis? [true/false]": true,
+  "Spawn Setting": {
+    "Minimum respawn time": 7200.0,
+    "Maximum respawn time": 10800.0,
+    "Settings for Monuments": {
+      "assets/bundled/prefabs/autospawn/monument/large/airfield_1.prefab": {
+        "Enable the spawn of the biplane at this monument": false,
+        "Preset probability": {
+          "biplane_airfield": 100.0
+        },
+        "Spawn points": [
+          {
+            "Position": "(126.9, 0.3, -44.1)",
+            "Rotation": "-90"
+          },
+          {
+            "Position": "(-94.7, 0.3, -10.9)",
+            "Rotation": "90"
+          }
+        ],
+        "Add a seller to a monument? [true/false]": true,
+        "Seller's preset": "seller_default",
+        "The seller's location on the monument": {
+          "Position": "(34.6, 0.3, 22.6)",
+          "Rotation": "90"
+        },
+        "The place of the plane's spawn after purchase": {
+          "Position": "(50.5, 0.3, 15.0)",
+          "Rotation": "180"
+        }
+      }
+    },
+    "Setting up the spawn of biplanes in custom spawn points": {
+      "Enable the spawn of the biplane on custom spawn points": false,
+      "Preset probability": {
+        "biplane_airfield": 100.0
+      },
+      "Spawn points": []
+    }
+  },
+  "List of biplanes": {
+    "biplane_default": {
+      "Custom item shortname for placement": "biplaneitem_default",
+      "Permission to purchase/use": "",
+      "Force": 10000.0,
+      "Maximum speed": 35.0,
+      "Maximum height": 300.0,
+      "Control Settings": {
+        "Turning speed multiplier [MOUSE]": 1.0,
+        "Turning speed multiplier [A/D]": 1.0
+      },
+      "The amount of fuel in the tank during spawn": 100,
+      "Add components to the engine? [true/false]": true,
+      "Engine component level (1 - 3)": 2,
+      "Number of slots in the box": 3,
+      "Time between rockets/bombs": 1.0,
+      "Allow bombing [true/false]": false,
+      "Add rocket launchers [true/false]": false,
+      "Infinite rockets [true/false]": false,
+      "Infinite bombs [true/false]": false
+    },
+    "biplane_airfield": {
+      "Custom item shortname for placement": "biplaneitem_airfield",
+      "Permission to purchase/use": "",
+      "Force": 10000.0,
+      "Maximum speed": 35.0,
+      "Maximum height": 300.0,
+      "Control Settings": {
+        "Turning speed multiplier [MOUSE]": 1.0,
+        "Turning speed multiplier [A/D]": 1.0
+      },
+      "The amount of fuel in the tank during spawn": 0,
+      "Add components to the engine? [true/false]": false,
+      "Engine component level (1 - 3)": 2,
+      "Number of slots in the box": 3,
+      "Time between rockets/bombs": 1.0,
+      "Allow bombing [true/false]": false,
+      "Add rocket launchers [true/false]": false,
+      "Infinite rockets [true/false]": false,
+      "Infinite bombs [true/false]": false
+    },
+    "biplane_bomber": {
+      "Custom item shortname for placement": "biplaneitem_bomber",
+      "Permission to purchase/use": "biplane.bomber.use",
+      "Force": 10000.0,
+      "Maximum speed": 35.0,
+      "Maximum height": 300.0,
+      "Control Settings": {
+        "Turning speed multiplier [MOUSE]": 1.0,
+        "Turning speed multiplier [A/D]": 1.0
+      },
+      "The amount of fuel in the tank during spawn": 100,
+      "Add components to the engine? [true/false]": true,
+      "Engine component level (1 - 3)": 2,
+      "Number of slots in the box": 3,
+      "Time between rockets/bombs": 1.0,
+      "Allow bombing [true/false]": true,
+      "Add rocket launchers [true/false]": false,
+      "Infinite rockets [true/false]": false,
+      "Infinite bombs [true/false]": false
+    },
+    "biplane_stormtrooper": {
+      "Custom item shortname for placement": "biplaneitem_stormtrooper",
+      "Permission to purchase/use": "biplane.stormtrooper.use",
+      "Force": 10000.0,
+      "Maximum speed": 35.0,
+      "Maximum height": 300.0,
+      "Control Settings": {
+        "Turning speed multiplier [MOUSE]": 1.0,
+        "Turning speed multiplier [A/D]": 1.0
+      },
+      "The amount of fuel in the tank during spawn": 100,
+      "Add components to the engine? [true/false]": true,
+      "Engine component level (1 - 3)": 2,
+      "Number of slots in the box": 3,
+      "Time between rockets/bombs": 1.0,
+      "Allow bombing [true/false]": true,
+      "Add rocket launchers [true/false]": false,
+      "Infinite rockets [true/false]": false,
+      "Infinite bombs [true/false]": false
+    }
+  },
+  "List of items": {
+    "biplaneitem_default": {
+      "Name": "Biplane",
+      "Shortname": "box.wooden.large",
+      "Skin": 2767743723
+    },
+    "biplaneitem_airfield": {
+      "Name": "Biplane Airfield",
+      "Shortname": "box.wooden.large",
+      "Skin": 2776561072
+    },
+    "biplaneitem_bomber": {
+      "Name": "Bomber",
+      "Shortname": "box.wooden.large",
+      "Skin": 2776561506
+    },
+    "biplaneitem_stormtrooper": {
+      "Name": "Stormtrooper",
+      "Shortname": "box.wooden.large",
+      "Skin": 2776561787
+    }
+  },
+  "List of sellers": {
+    "seller_default": [
+      {
+        "The name displayed on the button": "Biplane",
+        "Item for purchase": {
+          "Amount": 750,
+          "Shortname": "scrap",
+          "Skin": 0
+        },
+        "Biplane Preset": "biplane_default"
+      },
+      {
+        "The name displayed on the button": "Stormtrooper",
+        "Item for purchase": {
+          "Amount": 1500,
+          "Shortname": "scrap",
+          "Skin": 0
+        },
+        "Biplane Preset": "biplane_stormtrooper"
+      },
+      {
+        "The name displayed on the button": "Bomber",
+        "Item for purchase": {
+          "Amount": 1500,
+          "Shortname": "scrap",
+          "Skin": 0
+        },
+        "Biplane Preset": "biplane_bomber"
+      }
+    ]
+  },
+  "List of rockets": [
+    {
+      "Prefab": "assets/prefabs/ammo/rocket/rocket_hv.prefab",
+      "Shortname": "ammo.rocket.hv",
+      "Skin": 0
+    },
+    {
+      "Prefab": "assets/prefabs/ammo/rocket/rocket_hv.prefab",
+      "Shortname": "ammo.rocket.basic",
+      "Skin": 0
+    }
+  ],
+  "List of bombs": [
+    {
+      "Prefab": "assets/prefabs/ammo/40mmgrenade/40mm_grenade_he.prefab",
+      "Shortname": "ammo.grenadelauncher.he",
+      "Skin": 0
+    },
+    {
+      "Prefab": "assets/prefabs/ammo/40mmgrenade/40mm_grenade_smoke.prefab",
+      "Shortname": "ammo.grenadelauncher.smoke",
+      "Skin": 0
+    }
+  ],
+  "GUI": {
+    "Use the fuel display GUI? [true/false]": true,
+    "Font Size": 20,
+    "OffsetMin": "-100 70",
+    "OffsetMax": "100 120"
+  },
+  "Marker Setting": {
+    "Add a seller's marker to the card? [true/false]": true,
+    "Text": "Biplane seller"
+  }
+}

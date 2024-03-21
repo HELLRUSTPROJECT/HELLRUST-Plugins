@@ -1,0 +1,241 @@
+{
+  "Limit players to one helicopter type at a time": false,
+  "Try to auto despawn other helicopter types": false,
+  "Minicopter": {
+    "Spawn commands": [
+      "mymini"
+    ],
+    "Fetch commands": [
+      "fmini"
+    ],
+    "Despawn commands": [
+      "nomini"
+    ],
+    "Can despawn while occupied": false,
+    "Can fetch while occupied": false,
+    "Can spawn while building blocked": false,
+    "Can fetch while building blocked": false,
+    "Auto fetch": false,
+    "Repair on fetch": false,
+    "Max spawn distance": 5.0,
+    "Max fetch distance": -1.0,
+    "Max despawn distance": -1.0,
+    "Fixed spawn distance": {
+      "Enabled": true,
+      "Distance from player": 3.0,
+      "Helicopter rotation angle": 90.0
+    },
+    "Only owner and team can mount": false,
+    "Spawn health": 750.0,
+    "Destroy on disconnect": false,
+    "Fuel": {
+      "Default fuel amount": 0,
+      "Fuel profiles requiring permission": [
+        {
+          "Fuel amount": 100,
+          "Permission suffix": "100"
+        },
+        {
+          "Fuel amount": 500,
+          "Permission suffix": "500"
+        },
+        {
+          "Fuel amount": 1000,
+          "Permission suffix": "1000"
+        }
+      ]
+    },
+    "Spawn cooldowns": {
+      "Default cooldown (seconds)": 3600.0,
+      "Cooldown profiles requiring permission": [
+        {
+          "Cooldown (seconds)": 3600.0,
+          "Permission suffix": "1hr"
+        },
+        {
+          "Cooldown (seconds)": 600.0,
+          "Permission suffix": "10m"
+        },
+        {
+          "Cooldown (seconds)": 10.0,
+          "Permission suffix": "10s"
+        }
+      ]
+    },
+    "Fetch cooldowns": {
+      "Default cooldown (seconds)": 10.0,
+      "Cooldown profiles requiring permission": [
+        {
+          "Cooldown (seconds)": 3600.0,
+          "Permission suffix": "1hr"
+        },
+        {
+          "Cooldown (seconds)": 600.0,
+          "Permission suffix": "10m"
+        },
+        {
+          "Cooldown (seconds)": 10.0,
+          "Permission suffix": "10s"
+        }
+      ]
+    }
+  },
+  "ScrapTransportHelicopter": {
+    "Spawn commands": [
+      "myheli"
+    ],
+    "Fetch commands": [
+      "fheli"
+    ],
+    "Despawn commands": [
+      "noheli"
+    ],
+    "Can despawn while occupied": false,
+    "Can fetch while occupied": false,
+    "Can spawn while building blocked": false,
+    "Can fetch while building blocked": false,
+    "Auto fetch": false,
+    "Repair on fetch": false,
+    "Max spawn distance": 5.0,
+    "Max fetch distance": -1.0,
+    "Max despawn distance": -1.0,
+    "Fixed spawn distance": {
+      "Enabled": true,
+      "Distance from player": 3.0,
+      "Helicopter rotation angle": 90.0
+    },
+    "Only owner and team can mount": false,
+    "Spawn health": 1000.0,
+    "Destroy on disconnect": false,
+    "Fuel": {
+      "Default fuel amount": 0,
+      "Fuel profiles requiring permission": [
+        {
+          "Fuel amount": 100,
+          "Permission suffix": "100"
+        },
+        {
+          "Fuel amount": 500,
+          "Permission suffix": "500"
+        },
+        {
+          "Fuel amount": 1000,
+          "Permission suffix": "1000"
+        }
+      ]
+    },
+    "Spawn cooldowns": {
+      "Default cooldown (seconds)": 3600.0,
+      "Cooldown profiles requiring permission": [
+        {
+          "Cooldown (seconds)": 3600.0,
+          "Permission suffix": "1hr"
+        },
+        {
+          "Cooldown (seconds)": 600.0,
+          "Permission suffix": "10m"
+        },
+        {
+          "Cooldown (seconds)": 10.0,
+          "Permission suffix": "10s"
+        }
+      ]
+    },
+    "Fetch cooldowns": {
+      "Default cooldown (seconds)": 10.0,
+      "Cooldown profiles requiring permission": [
+        {
+          "Cooldown (seconds)": 3600.0,
+          "Permission suffix": "1hr"
+        },
+        {
+          "Cooldown (seconds)": 600.0,
+          "Permission suffix": "10m"
+        },
+        {
+          "Cooldown (seconds)": 10.0,
+          "Permission suffix": "10s"
+        }
+      ]
+    }
+  },
+  "AttackHelicopter": {
+    "Spawn commands": [
+      "myattack"
+    ],
+    "Fetch commands": [
+      "fattack"
+    ],
+    "Despawn commands": [
+      "noattack"
+    ],
+    "Can despawn while occupied": false,
+    "Can fetch while occupied": false,
+    "Can spawn while building blocked": false,
+    "Can fetch while building blocked": false,
+    "Auto fetch": false,
+    "Repair on fetch": false,
+    "Max spawn distance": 5.0,
+    "Max fetch distance": -1.0,
+    "Max despawn distance": -1.0,
+    "Fixed spawn distance": {
+      "Enabled": true,
+      "Distance from player": 3.0,
+      "Helicopter rotation angle": 90.0
+    },
+    "Only owner and team can mount": false,
+    "Spawn health": 850.0,
+    "Destroy on disconnect": false,
+    "Fuel": {
+      "Default fuel amount": 0,
+      "Fuel profiles requiring permission": [
+        {
+          "Fuel amount": 100,
+          "Permission suffix": "100"
+        },
+        {
+          "Fuel amount": 500,
+          "Permission suffix": "500"
+        },
+        {
+          "Fuel amount": 1000,
+          "Permission suffix": "1000"
+        }
+      ]
+    },
+    "Spawn cooldowns": {
+      "Default cooldown (seconds)": 3600.0,
+      "Cooldown profiles requiring permission": [
+        {
+          "Cooldown (seconds)": 3600.0,
+          "Permission suffix": "1hr"
+        },
+        {
+          "Cooldown (seconds)": 600.0,
+          "Permission suffix": "10m"
+        },
+        {
+          "Cooldown (seconds)": 10.0,
+          "Permission suffix": "10s"
+        }
+      ]
+    },
+    "Fetch cooldowns": {
+      "Default cooldown (seconds)": 10.0,
+      "Cooldown profiles requiring permission": [
+        {
+          "Cooldown (seconds)": 3600.0,
+          "Permission suffix": "1hr"
+        },
+        {
+          "Cooldown (seconds)": 600.0,
+          "Permission suffix": "10m"
+        },
+        {
+          "Cooldown (seconds)": 10.0,
+          "Permission suffix": "10s"
+        }
+      ]
+    }
+  }
+}

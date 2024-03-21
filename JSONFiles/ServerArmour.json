@@ -1,0 +1,76 @@
+{
+  "Anti Hack": {
+    "Ignore Cheat Detected": true
+  },
+  "Auto Kick": {
+    "Alts that have active bans on your servers": false,
+    "Bans on your network": true,
+    "Enable Total bans (server + game + vac) kick": false,
+    "Enabled": true,
+    "Max allowed previous bans": 3,
+    "Max allowed total bans (server + game + vac)": 30,
+    "Ping": {
+      "Limit players ONLY to this country ISO code, kick rest": "",
+      "Max Ping Allowed": 250
+    },
+    "Steam": {
+      "Family share accounts": false,
+      "Family share accounts that are dirty": false,
+      "Max allowed Game bans": 2,
+      "Max allowed VAC bans": 1,
+      "Min age of VAC ban allowed": 90,
+      "Min Allowed Steam Level (-1 disables)": -1,
+      "Private Steam Profiles": false,
+      "Profiles that do no conform to the Steam64 IDs (Highly recommended)": true,
+      "When Steam Level Hidden": false
+    },
+    "Users that have been banned on rusthackreport": false,
+    "VPN": {
+      "Enabled": true,
+      "Ignore nVidia Cloud Gaming": true
+    }
+  },
+  "Better Chat: Tag for dirty users": "",
+  "Broadcast": {
+    "Kicks": false,
+    "New bans": true,
+    "Player Reports": true,
+    "RCON": false,
+    "When VAC is younger than": 120
+  },
+  "Clan Ban": {
+    "Ban Native Team Members": true,
+    "Reason Prefix": "Assoc Ban -> {playerId}: {reason}"
+  },
+  "Discord": {
+    "Bans Webhook URL": "https://support.discordapp.com/hc/en-us/articles/228383668-Intro-to-Webhooks",
+    "Notify when a player has received a game ban": true,
+    "Send Ban Report": true,
+    "Send Join Player Reports": true,
+    "Send Kick Report": true,
+    "Send Only Dirty Player Reports": true,
+    "Show Quick Connect On report": true,
+    "Webhook URL": "https://support.discordapp.com/hc/en-us/articles/228383668-Intro-to-Webhooks"
+  },
+  "General": {
+    "Debug: Show additional debug console logs": false,
+    "Ignore Admins": true,
+    "SteamID for message icon": "76561199044451528"
+  },
+  "io.serverarmour.com": {
+    "Owner Email": "",
+    "Owner Real Name": "",
+    "Owner Steam64 ID": "",
+    "Server Key": "",
+    "Share details with other server owners": true,
+    "Steam API Key": "",
+    "Submit Arkan Data": true
+  },
+  "Plugin": {
+    "Use ELO system?": true
+  },
+  "Server Info": {
+    "Your Server IP": ""
+  },
+  "Show Protected MSG": true
+}
